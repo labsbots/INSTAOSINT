@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  osintgram:
+    container_name: INSTAOSINT
+    build: .
+    volumes:
+      - ./output:/home/INSTAOSINT/output
